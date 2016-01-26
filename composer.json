@@ -1,0 +1,25 @@
+{
+  "name": "beecms/virtual-identity",
+  "description": "Virual identity bundle for Youtube, Facebook, Twitter, Instagram - Social Aggregator Bundle",
+  "type": "symfony-bundle",
+  "authors": [
+      {
+          "name": "Srinivasan Kumar",
+          "email": "srinikumar11@gmail.com"
+      }
+  ],
+  "license": "MIT",
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "VirtualIdentity\\AggregatorBundle\\": "/AggregatorBundle",
+      "VirtualIdentity\\FacebookBundle\\": "/FacebookBundle",
+      "VirtualIdentity\\InstagramBundle\\": "/InstagramBundle",
+      "VirtualIdentity\\TwitterBundle\\": "/TwitterBundle",
+      "VirtualIdentity\\YoutubeBundle\\": "/YoutubeBundle"
+    }
+  },
+  "minimum-stability": "stable"
+}
